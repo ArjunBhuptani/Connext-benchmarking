@@ -1,0 +1,18 @@
+{
+  "name": "flamegraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/flamegraph.js",
+  "scripts": {
+    "prep": "node ./src/prep.js",
+    "latency": "node ./src/latency.js",
+    "flamegraph": "0x -o ./src/flamegraph.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@connext/client": "^4.0.8",
+    "@connext/store": "^4.0.8",
+    "ethers": "^4.0.44"
+  }
+}
